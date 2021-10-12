@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `John Tucker Must Code`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `John Tucker`,
+      summary: `having fun with data`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `John Tucker's blog.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      linkedin: `hirejohntucker`,
     },
   },
   plugins: [
