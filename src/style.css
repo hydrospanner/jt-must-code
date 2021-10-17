@@ -304,6 +304,10 @@ a:focus {
   padding-right: 5px;
 }
 
+.bio .authorSummary {
+  font-size: var(--fontSize-1);
+}
+
 .bio-avatar {
   margin-right: var(--spacing-4);
   margin-bottom: var(--spacing-0);

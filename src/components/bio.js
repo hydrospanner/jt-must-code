@@ -46,8 +46,15 @@ const Bio = () => {
       />
       <div>
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
+          Written by
+          &nbsp;
+          <a href={`/about`}>
+            <strong>{author.name}</strong>
+          </a>
         </p>
+        <div className="authorSummary">
+          {author?.summary || null}
+        </div>
         <div className="social">
           <ul>
             <li>
