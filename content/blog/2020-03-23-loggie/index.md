@@ -4,7 +4,7 @@ date: "2020-03-23T22:12:03.284Z"
 description: "Well Log website"
 ---
 
-I've been working on a website for working with well logs on and off for a while now.
+I've been working on a website for managing well logs on and off for a while now.
 
 Meet [Loggie](https://well-loggie.herokuapp.com/), a well log website!
 
