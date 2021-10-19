@@ -16,9 +16,16 @@ const AboutPage = ({ data, location }) => {
       <p>
         My name is John Tucker.
         I have a BS in Petroleum Engineering from the University of Oklahoma.
-        I'm currently working as a Software Engineer in Dallas, Texas doing full
-        stack web development.
+        I'm currently working as a Software Engineer in the DFW area.
       </p>
+
+      <span>My software interests include</span>
+      <ul>
+        <li>full stack web development</li>
+        <li>data transformation & warehousing</li>
+        <li>CI/CD</li>
+        <li>cloud services (AWS)</li>
+      </ul>
     </Layout>
   )
 }
