@@ -73,6 +73,17 @@ body.dark {
   --color-accent: yellow;
   --color-text-secondary: lightgray;
 }
+
+body.dark :not(pre) > code[class*="language-"], body.dark
+pre[class*="language-"] {
+  background: #1e1d1d;
+}
+
+body.dark code[class*="language-"], body.dark pre[class*="language-"] {
+  color: #f0f0f0;
+  text-shadow: none !important;
+}
+
 /* HTML elements */
 
 *,

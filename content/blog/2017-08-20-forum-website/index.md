@@ -14,8 +14,13 @@ After going through the official Django tutorial and poking around, I wanted to 
 
 
 ## Let's see it
-[Here's the Github repository](https://github.com/hydrospanner/DForurm). To run it locally from Command Prompt or Anaconda, navigate to the `manage.py` file and enter `python manage.py runserver`. 
+[Here's the Github repository](https://github.com/hydrospanner/DForurm). 
+To run it locally, install it and run
 
+```shell
+python manage.py runserver
+```
+ 
 If you don't want to do that, I do have a few screenshots.
 
 
@@ -52,5 +57,3 @@ Each topic's page contains the topic's body, followed by posts from other users.
 I used Visual Studio 2017 (VS) as my IDE. I never used VS for development before, but I found it very useful for web development. I'll definitely use it again for my next Django project.
 
 I was happy that the front end web development class I took didn't go to waste. Bootstrap really adds a lot. 
-
-
