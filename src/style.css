@@ -378,6 +378,13 @@ a:focus {
   border-radius: 100%;
 }
 
+.bio .theme_column {
+  display: flex;
+  width: max-content;
+  margin-left: var(--spacing-4);
+  align-items: center;
+}
+
 .blog-post header h1 {
   margin: var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0);
 }

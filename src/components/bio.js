@@ -9,6 +9,7 @@ import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import DarkThemeToggler from "../components/dark_mode"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -69,6 +70,9 @@ const Bio = () => {
             </li>
           </ul>
         </div>
+      </div>
+      <div className="theme_column">
+        <DarkThemeToggler />
       </div>
     </div>
   )
