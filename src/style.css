@@ -63,6 +63,7 @@
   --color-text-secondary: #595858;
 }
 
+/* dark mode */
 body.dark {
   background: #0d1117;
   --color-primary: #a281ec;
@@ -84,6 +85,45 @@ body.dark code[class*="language-"], body.dark pre[class*="language-"] {
   text-shadow: none !important;
 }
 
+/* theme switch */
+.switch {
+  position : relative ;
+  display : inline-block;
+  width : 60px;
+  height : 34px;
+  background-color: #2196f3;
+  border-radius: 34px;
+}
+
+.switch::after {
+  content: '';
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #bbdbee url('images/sunny.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 3px;
+  left: 7px;
+  transition: all 0.3s;
+}
+
+
+.checkbox:checked + .switch::after {
+  left: 26px;
+  background: black url('images/night.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.checkbox:checked + .switch {
+  background-color: #7983ff;
+}
+
+.checkbox {
+  display: none;
+}
 /* HTML elements */
 
 *,
