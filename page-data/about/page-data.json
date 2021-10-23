@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-about-js",
+    "path": "/about/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"John Tucker Must Code","author":{"name":"John Tucker"}}}},"pageContext":{}},
+    "staticQueryHashes": ["2841359383"]}

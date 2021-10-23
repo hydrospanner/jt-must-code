@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[John Tucker Must Code]]></title><description><![CDATA[John Tucker's blog.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 23 Oct 2021 23:21:58 GMT</lastBuildDate><item><title><![CDATA[Well Log Django App]]></title><description><![CDATA[I’ve been working on a website for managing well logs on and off for a while now. Meet Loggie, a well log website! With Loggie, you can join…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/2020-03-23-loggie/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/2020-03-23-loggie/</guid><pubDate>Mon, 23 Mar 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;I’ve been working on a website for managing well logs on and off for a while now.&lt;/p&gt;
+&lt;p&gt;Meet &lt;a href=&quot;https://well-loggie.herokuapp.com/&quot;&gt;Loggie&lt;/a&gt;, a well log website!&lt;/p&gt;
+&lt;p&gt;With Loggie, you can join and create groups to share your logs, and customize how public or private each group is. It’s similar to Reddit’s permission system with well logs instead of posts.&lt;/p&gt;
+&lt;p&gt;Well logs are a collection of sensors lowered into a well bore. The variety of sensors, scale of the data, and visualization options create an interesting challenge for displaying the data.&lt;/p&gt;
+&lt;p&gt;At the moment the visualizations are based on a mapping I created of common logging tools and how they’re plotted. An enhancement to that would be to allow users to customize the visualization, plotting tools Loggie doesn’t recognize.&lt;/p&gt;
+&lt;p&gt;All the code I’ve written for Loggie is closed source at the moment, but I’m thinking I’ll open source the Permission system app at least.&lt;/p&gt;
+&lt;p&gt;Here’s a screenshot from an array induction log:&lt;/p&gt;
+&lt;div classname=&quot;Image__Medium&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/jt-must-code/static/a5b609283e13d19e07ead8ef7fea5200/29007/loggie_log.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 20.253164556962027%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAIAAAABPYjBAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA50lEQVQI1x3LyUrDUBQA0Pykf+HGb3DlTsGCSNGV3Ug3DkgpEpG4sJa2aIuQUkODxhQS0jfdN92XK/XsT1Q3dV7niGaSVasNIwraaAMmq9aj1ZSIAmJAFFyAgW7c+ypzInLeK6Uij77kvyVTt7Of+XdDRNY5DXoL20n2IUAKLaQFznnbhv74Pvl8a/9prSMiGi6fbxZTprzzHhGts1JK8CrJRid3lxdP1/NyyXYZT5PuXme///JQVJtd5py9rsdxmg7ei6KRbUBjjBRKOHY07JwNrhZ5ClYLLry3x/H5Qe/wcZYoDQDwBzAL1W5RV9kvAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Array induction log&quot; title=&quot;Array induction log&quot; src=&quot;/jt-must-code/static/a5b609283e13d19e07ead8ef7fea5200/f058b/loggie_log.png&quot; srcset=&quot;/jt-must-code/static/a5b609283e13d19e07ead8ef7fea5200/c26ae/loggie_log.png 158w,
+/jt-must-code/static/a5b609283e13d19e07ead8ef7fea5200/6bdcf/loggie_log.png 315w,
+/jt-must-code/static/a5b609283e13d19e07ead8ef7fea5200/f058b/loggie_log.png 630w,
+/jt-must-code/static/a5b609283e13d19e07ead8ef7fea5200/40601/loggie_log.png 945w,
+/jt-must-code/static/a5b609283e13d19e07ead8ef7fea5200/78612/loggie_log.png 1260w,
+/jt-must-code/static/a5b609283e13d19e07ead8ef7fea5200/29007/loggie_log.png 1600w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;You can view this log on Loggie, &lt;a href=&quot;https://well-loggie.herokuapp.com/g/public/log/11&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[SQL Database of Filesystem]]></title><description><![CDATA[I was running out of disk space on my 128GB Surface Pro, so I needed to find out where all my space went.
+I made a python package, , to walk…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/2019-04-21-sql-filesystem/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/2019-04-21-sql-filesystem/</guid><pubDate>Sun, 21 Apr 2019 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;I was running out of disk space on my 128GB Surface Pro, so I needed to find out where all my space went.
+I made a python package, &lt;a href=&quot;https://github.com/hydrospanner/directory_to_sql&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;directory_to_sql&lt;/code&gt;&lt;/a&gt;, to walk through a directory tree, gather file system data, and store it in a SQLite database.&lt;/p&gt;
+&lt;p&gt;The data retrieved includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;File sizes and modification date.&lt;/li&gt;
+&lt;li&gt;Folder sizes and file counts.&lt;/li&gt;
+&lt;li&gt;Recursive (including sub-folders) folder sizes and file counts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The package contains several queries to find top 10 largest files and folders. This was all I really needed to solve my space problem.&lt;/p&gt;
+&lt;p&gt;The package returns a database connection to the SQL database, so it’s very extendable for further analysis. The package is published on &lt;a href=&quot;https://pypi.org/project/directory-to-sql/&quot;&gt;PiPy&lt;/a&gt; and uses Travis CI.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Well Log Visualization]]></title><description><![CDATA[A well log is a measurement with respect to depth or time of various physical characteristics in or around a well bore. Well logs are used…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/2017-10-08-well-log-viz/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/2017-10-08-well-log-viz/</guid><pubDate>Sun, 08 Oct 2017 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;A well log is a measurement with respect to depth or time of various physical characteristics in or around a well bore. Well logs are used extensively by the oil and gas industry. The universal digital format of well logs is the Log ASCII Standard (LAS).&lt;/p&gt;
+&lt;p&gt;Reading and interpreting well logs has been a common task for me both in college and at work. I have a project in mind for an app to store, view, interpret, and share well logs in a web app, so I want to be more familiar with the file format.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/hydrospanner/lasio-test/blob/master/lasio%20test.ipynb&quot;&gt;This Notebook&lt;/a&gt; is my first attempt at working with well logs using Python. I’m using &lt;a href=&quot;https://github.com/kinverarity1/lasio&quot;&gt;lasio&lt;/a&gt; as my LAS parser.&lt;/p&gt;
+&lt;p&gt;My goals with the project were to&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Test if lasio works consistently with hundreds of well log files.&lt;/li&gt;
+&lt;li&gt;Analyze the usage frequency of well logging tools and how standardized the syntax is between well logging tools in terms of how the tools are named and described.&lt;/li&gt;
+&lt;li&gt;Plot some of the gamma ray, resistivity logs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;No test of a LAS parser would be complete without plotting the log data. Images of plotted well logs are quite large. It’s common to have more than one data point per foot depth for each tool and a well can be many thousands of feet deep. Below is a cropped example of a plotted well log. Full logs can be found in this &lt;a href=&quot;https://github.com/hydrospanner/lasio-test/tree/master/image%20out&quot;&gt;project’s source&lt;/a&gt;.&lt;/p&gt;
+&lt;div classname=&quot;Image__Medium&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/jt-must-code/static/79e93761f6161e2aad2860bb12260790/07a6a/log_example.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 107.59493670886076%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAIAAABPIytRAAAACXBIWXMAAAsTAAALEwEAmpwYAAADLUlEQVQ4y22U224jRRCG/eS8AkhIwF4gIS64YsXeRICyEAKKNoIEcnBiO7Hj83jGc+rp6mN1dTeaseNkpa3Lbn39119VXb3YRQghxliW5WAwYIwdTl6HknI4GDTdrfchhNA7wCEE8h6tDcEfzl4/HUJw/qMne4gohFBSaimMkhWDRVqO13la1EXFiEgpXddMSeDZXOaLZjtbre/yYrRc9XvOOWNMCGFZwqaWoOwsh6ObdVJJow0617Bq/PR0fXM7uL2ZzIcP67tJMjsbPp4NRj0iQkQfwq/9zXgLMUai1pD33lpDREVdT9fZKivWaZY39bzcbFhVNDqv+B4OIfzSTyZ7mHwX1lqLrqhBSkFEUooCCgYMjUVrADrYWhtj/DDOT0dZjNER7ZSNaZVLBpyDRQQQWquszrjkxhjOX8H3Cfv5Ntlp7tM2xhHljAMAInLOQfKyKUByrTVvmp5zRA4bjVeLepoDaIyhpXeenSMQUgjwzjPOmORWkzGI1oNQPU8ktfnzIc9Bx47D1nOrbYzxRBxEyRqu5CKbz9LBJh2Wxbwq53k26wVPTOif/luBxtDNTTcTL56bFma1VtXy9vros/fn36bZMNs+5unTXnm44QmTyrq00b8P0pybGMMOVqpNm8hvHy/vL989LfuKZVo0IPS+Ve24ko8hGKRvTsZvTieO2lZ1HZJCSK1Yf/JgXNRSaa3NrmBttbsh6YrsraMfzmdfnTwelGUXQjTrZIHWcmhL/dKqnXI7GcFrpC+OR28vlzFGrV/DPElXiE4I+ATcse2feffv8vsPU9f1/wA3vF6niXcE8DFsO9g6KsGAccd3mzen4y3XhNa9eIbJfFRxKYR4gZ1zO2VHZNAxhV//Mf7xYomO0FrnWpiDCGjuxwMmtJLi02nHGKyjs8ft58ejvx5y+eyZAwTvJ9Ph9XSl22I/wwBg2+3Rbopto88nxdvLxdFNcrOsN91/gi7IxzyZvL+4kMpqrfYwdhFjvFux786mV4tKGnTUZoFoEVFKCQCOAt/OTv45TSpA04p3np+Xwd9PxZe/PUjrdtuLyB/6DMC9D5v1+Lx/ta3BPsP/Aztu3k1o03SDAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Cropped resistivity and gamma ray logs&quot; title=&quot;Cropped resistivity and gamma ray logs&quot; src=&quot;/jt-must-code/static/79e93761f6161e2aad2860bb12260790/f058b/log_example.png&quot; srcset=&quot;/jt-must-code/static/79e93761f6161e2aad2860bb12260790/c26ae/log_example.png 158w,
+/jt-must-code/static/79e93761f6161e2aad2860bb12260790/6bdcf/log_example.png 315w,
+/jt-must-code/static/79e93761f6161e2aad2860bb12260790/f058b/log_example.png 630w,
+/jt-must-code/static/79e93761f6161e2aad2860bb12260790/40601/log_example.png 945w,
+/jt-must-code/static/79e93761f6161e2aad2860bb12260790/07a6a/log_example.png 1095w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Forum Website]]></title><description><![CDATA[I made my first web application! It’s a forum website. Think, Reddit, or a site where people post and comment on things. I chose a forum…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/2017-08-20-forum-website/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/2017-08-20-forum-website/</guid><pubDate>Sun, 20 Aug 2017 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;I made my first web application!&lt;/p&gt;
+&lt;p&gt;It’s a forum website. Think, &lt;a href=&quot;https://reddit.com&quot;&gt;Reddit&lt;/a&gt;, or a site where people post and comment on things. I chose a forum, because some of my ideas down the road involve a website where users collaborate.&lt;/p&gt;
+&lt;p&gt;I built the project using Django, a Python web framework. Django allows for fast development and is built using a “don’t repeat yourself” philosophy which minimizes redundant code.&lt;/p&gt;
+&lt;p&gt;After going through the official Django tutorial and poking around, I wanted to make something by myself.&lt;/p&gt;
+&lt;h2&gt;Let’s see it&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/hydrospanner/DForurm&quot;&gt;Here’s the Github repository&lt;/a&gt;.
+To run it locally, install it and run&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;python manage.py runserver&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If you don’t want to do that, I do have a few screenshots.&lt;/p&gt;
+&lt;h3&gt;Index Page&lt;/h3&gt;
+&lt;div classname=&quot;Image__Medium&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/jt-must-code/static/110e148dd39fdd04c47718726bc80b55/fbfd6/index_page.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 87.34177215189874%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAIAAABSJhvpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB4UlEQVQ4y5WR304TQRTG54kEYZvttvAS0htpfQkuvNNgY6y9lARikXLjQxgTojdqUpJCDHBJjQmJ0NLt7s6/MzNnZsy2Bot/4vrld3FyJt/Ml2/IShitlqMoKEVBKVhYDBbu/mBxytywfGchXFpejVZKQSUKSuWlgFTq3eqD/cr6XmX9VbWxX6138810WW1Mh3q32uhW7u+F9zrhWqdc64S13XCtE9Y6pHWYtnrJ04/Ddp9uDfzW+ZSbYZ6Bf3F+C9LsiWaPP+nxZo83D+VviHme9aF9rNpHqn2sWn0gO6d659T8yonePtHbt49enpnNT3zjIHn4Pt04SB59oIQpe5nAmOlrpi5TGFH9LVUjqmcI4wA9oJfGofevPw8fvxk8f/d18+2X3aMrgoiUcsYE41wKCcoojc75P+pKqwsQFyCGaGLviTY4jLNhTMcJ40IqgwLQ2r+4b+RyCKKjQmVCpVzFFIRC65z7l3cmgmgp44xLLmTGBJNaGeuLKY8dp3ySieuEZVxZ62zBd70nBnGS5WbKAQyiLeqcme045XEquJBaa9AolEEsdAWx1mYclDYWUWtj0JoCZf8sbJLmnwRSSgkCTPHkeWGjCRslHACUymP/h1khMiE4AJcyBzSgNc4V4Tu1tG/HgaCm/gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Index page&quot; title=&quot;Index page&quot; src=&quot;/jt-must-code/static/110e148dd39fdd04c47718726bc80b55/f058b/index_page.png&quot; srcset=&quot;/jt-must-code/static/110e148dd39fdd04c47718726bc80b55/c26ae/index_page.png 158w,
+/jt-must-code/static/110e148dd39fdd04c47718726bc80b55/6bdcf/index_page.png 315w,
+/jt-must-code/static/110e148dd39fdd04c47718726bc80b55/f058b/index_page.png 630w,
+/jt-must-code/static/110e148dd39fdd04c47718726bc80b55/40601/index_page.png 945w,
+/jt-must-code/static/110e148dd39fdd04c47718726bc80b55/78612/index_page.png 1260w,
+/jt-must-code/static/110e148dd39fdd04c47718726bc80b55/fbfd6/index_page.png 1357w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;The index page will look familiar to a reddit user. The eye grabbing content is the title of each post. In smaller text is when the post was submitted, who posted it, and where they posted it.
+In the dark blue header, is a quick link to some of the website’s forums. A list of all the website’s forums is also available.&lt;/p&gt;
+&lt;h3&gt;Forum page&lt;/h3&gt;
+&lt;div classname=&quot;Image__Medium&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/jt-must-code/static/91ce661380642094f1eeebd0b065bbca/f868f/forum.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 67.08860759493672%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsTAAALEwEAmpwYAAABdElEQVQoz53Oy0oCYRjG8e+m7HwHGVmuclHZLUTQIiLUyBpHR8UOEy26iGglBB0QD9S00A6LqCQ6zPg5o858h5l5w9oEamR/ftsHHpSKx9IJMSluJYRNKbaVigtJUUgnxO2U1Gk3ndzf3d7JZKSNSFKIojF/cMwfHJmaG/bNDngD3zzegGd8ptPgRGDUv+CZnB+ZnhvyzaL1nBE+VSPnWuRME66JdA/SXU/xW4hVQPx2AyhcIKG81VawwgUSLtJfbF5xQbEFhQsKj15yJJf5fsWWK7ZctuUy3+tNrvC1i8ZSFi+f1BezOJRrIoPYT1rzSW2+YLNucWJDdxwowEHxbfX4IXZSXTl6OFQ+kOM4lFLGODVNalrQOwfgrmko2nvZwI+u/QyACLNftYba4mqphAt5B8B1wYUuHIBXSquWVTXNqmm9Oy5ijKmqWsMY17FWw7puMMbgbyHop59H2uNWq0UIgX/Vvs05Z4zR/kO6rte/svrvEx/hkGe99lDkAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Forum page&quot; title=&quot;Forum page&quot; src=&quot;/jt-must-code/static/91ce661380642094f1eeebd0b065bbca/f058b/forum.png&quot; srcset=&quot;/jt-must-code/static/91ce661380642094f1eeebd0b065bbca/c26ae/forum.png 158w,
+/jt-must-code/static/91ce661380642094f1eeebd0b065bbca/6bdcf/forum.png 315w,
+/jt-must-code/static/91ce661380642094f1eeebd0b065bbca/f058b/forum.png 630w,
+/jt-must-code/static/91ce661380642094f1eeebd0b065bbca/40601/forum.png 945w,
+/jt-must-code/static/91ce661380642094f1eeebd0b065bbca/78612/forum.png 1260w,
+/jt-must-code/static/91ce661380642094f1eeebd0b065bbca/f868f/forum.png 1382w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;Each Forum’s page lists the forum’s topics sorted to show the most recent. The forum’s description is in the sidebar. The URL to get to a forum’s page is really easy to read. It’s just &lt;code class=&quot;language-text&quot;&gt;/f/[forum_name]&lt;/code&gt;.&lt;/p&gt;
+&lt;h3&gt;Topic page&lt;/h3&gt;
+&lt;div classname=&quot;Image__Medium&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/jt-must-code/static/6d0f79cc66db70ad644f3715b2ae5873/6af66/topic.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 72.78481012658227%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAAsTAAALEwEAmpwYAAABkUlEQVQoz53Oz08aQRQH8PlXRM2uBtM/qFdNE5sgf4HowZgW1EPTpMc2qdiDJh70pmgbDAi0Bika05p2Z7v+KELY3Rl2ZnZmXgO9NIhS+OaTd/u+99BUNDphmqZhjEYij4uMjJiGMRl9MjpuThjG+NgYev4uO/s2O5fOxdb7i6fz8Q+FWPo4vpGPrefQ8olaPlErVb16Bn+tnfe2egYvKx1f4UUFUlVAiyWxUBKJokgUeKLIE0UxX2A9LRRZsiyT5TBZlqlTufSZo32LZTA/wPzQFhnM9i326Up1+Xiljq7VriWmt+yZTfxsy3r6/vLVFw/9+nF56+CaY9/Y1m8HN+9qcC+6M12pNqvXO99qe9jdvqiXXYa4EKyDtgIuBAAo3U3q9gJf63PS/M4IBnkLYGtAxCe+5xHfb1EaSgUPR4ImUhIhfM5bWjMA5Hp+s+m6ntc+q2GgIMloGNAwDKXqX9X/aJcrDqk45H+aPS6/zvx8c4gpk+3Fg76twgC00hr04EFBwDqGCWo0GvV6nVI6RPkPwtcEKe8QXq0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Topic page&quot; title=&quot;Topic page&quot; src=&quot;/jt-must-code/static/6d0f79cc66db70ad644f3715b2ae5873/f058b/topic.png&quot; srcset=&quot;/jt-must-code/static/6d0f79cc66db70ad644f3715b2ae5873/c26ae/topic.png 158w,
+/jt-must-code/static/6d0f79cc66db70ad644f3715b2ae5873/6bdcf/topic.png 315w,
+/jt-must-code/static/6d0f79cc66db70ad644f3715b2ae5873/f058b/topic.png 630w,
+/jt-must-code/static/6d0f79cc66db70ad644f3715b2ae5873/6af66/topic.png 640w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;Each topic’s page contains the topic’s body, followed by posts from other users. The topic page inherits the sidebar from its forum.&lt;/p&gt;
+&lt;h2&gt;Final Thoughts&lt;/h2&gt;
+&lt;p&gt;I used Visual Studio 2017 (VS) as my IDE. I never used VS for development before, but I found it very useful for web development. I’ll definitely use it again for my next Django project.&lt;/p&gt;
+&lt;p&gt;I was happy that the front end web development class I took didn’t go to waste. Bootstrap really adds a lot.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Cross Over Stock Trading Algorithm]]></title><description><![CDATA[Sometimes I wonder if or when I should buy a stock, and I’ll get a stock trading algorithm in my head. Would it beat holding the stock? How…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/2017-02-17-crossover-trading/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/2017-02-17-crossover-trading/</guid><pubDate>Fri, 17 Feb 2017 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Sometimes I wonder if or when I should buy a stock, and I’ll get a stock trading algorithm in my head. Would it beat holding the stock? How risky is it?&lt;/p&gt;
+&lt;p&gt;One way to access that is testing the algorithm on past market data. Here, I do just that.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://nbviewer.jupyter.org/github/hydrospanner/stock-crossover-trading/blob/master/Stocks%20Market%20Analysis.ipynb&quot;&gt;Stock Market Analysis&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use API to pull stock data&lt;/li&gt;
+&lt;li&gt;Methods to analyze stock data&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.investopedia.com/terms/c/crossover.asp&quot;&gt;Crossover trading&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Backtest crossover trading strategy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div classname=&quot;Image__Medium&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/jt-must-code/static/8656fb48d9f199382bab7d3edd5ae40c/6af66/purchase_windows_AAPL.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 35.44303797468354%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAIAAACHqfpvAAAACXBIWXMAAAsTAAALEwEAmpwYAAABZElEQVQY003PXU+CUACAYX9466LsY2tRmxiSUd3Z0BtnrgtXWxLplFwZCKuV8pEJkegBPOg5B5vZmu/9c/Em5r8hjGEEQxi6gev4ThAFHvD0L7076L7bXWtoBpE/mU28iTcMvwkhcbxQiSUO4cR27YpWOW2dMg1GdVQLWEyT4R643bvtPYEuKtX2p3r1Ws6183CKYkL+MMaYIOJP/ZycYyWWaR6pX6o5NukGfdLKrl9vbdwcljrX1bfni/bl2UMBk0V/GEYQzRCIQF7hWen4QGQf+9oHMNONdKbBrVV29kVKNIT2QM49FXmFj+MVjBDCCPvTBabrWUrM1PQnzelRd5lUjUveblL3VLUnaK5WfinxCk9WcTyPMcaD8fBcKqRqWVZiZFtRbT1VP+Ja2eRtkhIpoSd0nE5JK/Eyv9j8x8vtEMIBcCzP7I/7AIIIQWtk6d+GMTL0oT6CIwCBG7g2sBFCS/UD+XBl+u66wZcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Crossover algorithm trading periods&quot; title=&quot;Crossover algorithm trading periods&quot; src=&quot;/jt-must-code/static/8656fb48d9f199382bab7d3edd5ae40c/f058b/purchase_windows_AAPL.png&quot; srcset=&quot;/jt-must-code/static/8656fb48d9f199382bab7d3edd5ae40c/c26ae/purchase_windows_AAPL.png 158w,
+/jt-must-code/static/8656fb48d9f199382bab7d3edd5ae40c/6bdcf/purchase_windows_AAPL.png 315w,
+/jt-must-code/static/8656fb48d9f199382bab7d3edd5ae40c/f058b/purchase_windows_AAPL.png 630w,
+/jt-must-code/static/8656fb48d9f199382bab7d3edd5ae40c/6af66/purchase_windows_AAPL.png 640w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;While this Notebook follows another blog post, I made significant changes to the code and added better visualizations.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://nbviewer.jupyter.org/github/hydrospanner/stock-crossover-trading/blob/master/Stock%20Trading%20Algorithm%20Testing.ipynb&quot;&gt;Stock Trading Algorithm Testing&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Test the Crossover trading algorithm on all the stocks in the S&amp;#x26;P 500&lt;/li&gt;
+&lt;li&gt;Analyze results&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div classname=&quot;Image__Medium&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/jt-must-code/static/55d20e27f7312e39d5f66720fb2af1bb/6af66/return_ratio_hold_and_alg_sp500.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 46.835443037974684%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsTAAALEwEAmpwYAAABHElEQVQoz42Ry0vDQBCH81eLtUW04MUqeFPwIngogqBeeoztoR6kDRVfFR9gwSSk2bwk2d3M7KyYmEov0Q8WduD37Qyzhi5IoiSOYkQkIgDgnIsKXiClVBUAQERaa6OU8ywDKUn/DWkNgEsyKqX/Z+ag4lQU10IGgFzK3wRpKlBEqjzqp9BaCwm2F5UPfcuICAALr6ZzwNV5f/oynRVZqsZGXCSEyMOE2/7n+0fw/Obe3c9G10+Xg9veab+7c3yy0oknN2UnoxIEG1uvF71J92x8cDTcOzS3983NXXOjM2huDRvtq2Z7tLr+0Gg9rrXmlrUkIyL3fe44mWNz1wXPyz0XfQ/ZHPw5hgxDJpkvw5CzQKRpaRn1u8Xa3/sCtQH960WUb/QAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Return ratio of holding stock vs algorithm for S&amp;amp;P 500 stocks &quot; title=&quot;Return ratio of holding stock vs algorithm for S&amp;amp;P 500 stocks &quot; src=&quot;/jt-must-code/static/55d20e27f7312e39d5f66720fb2af1bb/f058b/return_ratio_hold_and_alg_sp500.png&quot; srcset=&quot;/jt-must-code/static/55d20e27f7312e39d5f66720fb2af1bb/c26ae/return_ratio_hold_and_alg_sp500.png 158w,
+/jt-must-code/static/55d20e27f7312e39d5f66720fb2af1bb/6bdcf/return_ratio_hold_and_alg_sp500.png 315w,
+/jt-must-code/static/55d20e27f7312e39d5f66720fb2af1bb/f058b/return_ratio_hold_and_alg_sp500.png 630w,
+/jt-must-code/static/55d20e27f7312e39d5f66720fb2af1bb/6af66/return_ratio_hold_and_alg_sp500.png 640w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;/div&gt;
+&lt;div classname=&quot;Image__Medium&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/jt-must-code/static/bb421ca219e02b779d0848fc651b3683/6af66/return_ratio_hold_and_alg-sp500_hold_loss.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 46.835443037974684%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsTAAALEwEAmpwYAAABnklEQVQoz31P0UtacRT2f+upiGl7CFmBBKbFGgwatcaeoh7qKaTtKUZtLabV1Dtz5VoQUT6UtTFSl9k0uC3botm9P6+/c+85J66GGMS+hwPn43zfdz4H12CaJhKhpiGAaVnValVKKYTQNc2oQQIgIiH+u7rWNI2ZmNnBzEQEUtoeuRzrOt8LIahUImYLQEqJ1CQ2AeyLfJ5tV5shZjQMvLzEeorQOX9s30iDmAjxVgwAQtcNoko6LcrXolw2VNX8c2H9PjPDHy2joleMi6+bpZnZwvZebn5RPf9b/8ZRLwyIVChQMskned5PwavXv2aDqTdL34fGQoHg5FQ4NDD21j8a6nnxvt17snNgf4fY1Hl5yVpYKA6+/NY/vPHoSdTpnfaPv/OMzHmez7mfRjzDSvfgF/fj+IOe82TqjtgEKE4Etjr9Uac/4uz91OGLt3Z96HoW7ehfdXlX2rrjD/virt6Yyxducatbu3eTAY43tn8ElZ+x9aySyEbXMpHPR0oiHV7NKInD5VhWWc/YfOJwMXZ1qnJN5uD/gppmg2msN4KzzuohYnHXAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Crossover algorithm often exceeding hold when hold results in loss&quot; title=&quot;Crossover algorithm often exceeding hold when hold results in loss&quot; src=&quot;/jt-must-code/static/bb421ca219e02b779d0848fc651b3683/f058b/return_ratio_hold_and_alg-sp500_hold_loss.png&quot; srcset=&quot;/jt-must-code/static/bb421ca219e02b779d0848fc651b3683/c26ae/return_ratio_hold_and_alg-sp500_hold_loss.png 158w,
+/jt-must-code/static/bb421ca219e02b779d0848fc651b3683/6bdcf/return_ratio_hold_and_alg-sp500_hold_loss.png 315w,
+/jt-must-code/static/bb421ca219e02b779d0848fc651b3683/f058b/return_ratio_hold_and_alg-sp500_hold_loss.png 630w,
+/jt-must-code/static/bb421ca219e02b779d0848fc651b3683/6af66/return_ratio_hold_and_alg-sp500_hold_loss.png 640w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;Crossover algorithm often exceeding hold when hold results in loss.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/hydrospanner/stock-crossover-trading&quot;&gt;GitHub for this project&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Disclaimer: This is in no way financial advice. I am not a financial adviser. This post and code were done as a data analysis exercise only.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Google's Deep Dream]]></title><description><![CDATA[Google’s Deep Dream enhances patterns in an image similar to the way your mind perceives a face in the moon, an algorithmic pareidolia. I…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/2016-09-12-deep-dream/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/2016-09-12-deep-dream/</guid><pubDate>Mon, 12 Sep 2016 22:12:03 GMT</pubDate><content:encoded>&lt;div classname=&quot;Image__Medium&quot;&gt;
+  &lt;img src=&quot;/jt-must-code/b2ff56885ca0bc22d2f91a731b8c49c2/deep_dream_iterations.gif&quot; alt=&quot;This GIF shows how the number of Deep Dream iterations affects the image.&quot;&gt;
+&lt;/div&gt;
+&lt;p&gt;Google’s Deep Dream enhances patterns in an image similar to the way your mind perceives a face in the moon, an algorithmic pareidolia. I recently found a Jupyter Notebook, published by Google, showing how to produce the Deep Dream visuals. I thought I’d give it a shot.&lt;/p&gt;
+&lt;p&gt;If you have never heard of Deep Dream, this GIF shows its effect on an image.
+This GIF shows how the number of Deep Dream iterations affects the image.&lt;/p&gt;
+&lt;p&gt;GitHub is not able to show two of the GIFs I created in my notebook due to file size limitations. I included them in this blog post (one I converted to video).&lt;/p&gt;
+&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;iframe src=&quot;https://www.youtube.com/embed/geEyYqqpHKs&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt; &lt;/div&gt;
+&lt;p&gt;This video was made by applying the Deep Dream filter, zooming in, and looping that 200 times. There are some noticeable differences between this video and the &lt;a href=&quot;https://github.com/hydrospanner/Deep-Dream/blob/master/img%20loops/zoomgif.gif&quot;&gt;original GIF&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://nbviewer.jupyter.org/github/hydrospanner/Deep-Dream/blob/master/deep%20dream.ipynb&quot;&gt;Here’s how I used the Deep Dream program.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I’m happy with how it turned out. I was able to see the capabilities of Deep Dream by iterating through various settings. I was able to use Python to turn the generated images into labeled GIFs and tiled images. I think it turned out to be an effective way to display the data.&lt;/p&gt;
+&lt;h3&gt;Installation&lt;/h3&gt;
+&lt;p&gt;This Notebook uses Python Imaging Library (PIL) which has yet to release a version for Python 3.X, so I’ll need to run the notebook on Python 2.7. Good thing Anaconda makes managing different Python environments easy. I wonder why Google didn’t use Pillow instead and run the project on Python 3.&lt;/p&gt;
+&lt;p&gt;Installing Caffe was more difficult than I expected. Some issues I came across are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Instead of using a package manager, Caffe needs to be built with Visual Studio.&lt;/li&gt;
+&lt;li&gt;There are multiple versions of Caffe for Windows available on GitHub. The two I tried were from Berkeley Vision and Learning Center (BVLC) and Microsoft.
+&lt;ul&gt;
+&lt;li&gt;When I tried to build Microsoft’s Caffe, the build failed. This was due to the build requiring a debug version of Python. Oddly the installation instructions made no mention of this requirement. It’s only mentioned in the .PROPS file where the build’s variables are set.&lt;/li&gt;
+&lt;li&gt;I was able to build the BVLC version of Caffe, even though it mentioned the same debug requirement in the .PROPS file.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The Microsoft Surface I’m running this on has an integrated GPU, which does not support NVIDIA’s CUDA. I had to use a CpuBuildOnly build. At default settings it took about 5 minutes to render an image using most filters. I would look into a GPU build for a larger project.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/hydrospanner/Deep-Dream&quot;&gt;Source for this project&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For more Deep Dreams, see &lt;a href=&quot;https://www.instagram.com/deepdreamgenerator/&quot;&gt;this Instagram&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Asteriods]]></title><description><![CDATA[Play the game! The last project in my Coursera Python class is the game Asteroids. If you are unfamiliar with Asteroids, the goal is to…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/2015-12-15-asteriods/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/2015-12-15-asteriods/</guid><pubDate>Tue, 15 Dec 2015 22:12:03 GMT</pubDate><content:encoded>&lt;div classname=&quot;Image__Medium&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/jt-must-code/static/60e55cc1399c1fa0c36a6644f4a603d1/41be6/asteriods.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 88.60759493670886%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADVUlEQVQ4yx2UTW8bdRjEf/PfF3fX3rXX9tqb2JsXvydxWgeSJm7S1E6alyYhTVvSFipUVBBKBUKAKi5wAYlLEEJceuqFfgQOnJE48A0481GQ82huj0YzGmmGFprGcXDBMDkDlrAhJ0IRXKPiUBW1gEoPf45gVVtt9mvFNVYxKZ6FBbpi6grWFRzwRMbG8VWwCMvWRsHd9Kh5tJJSjyKFPKUpau5EzbGJHaqGyCZvkbcJPSJfucTMQkZqS41rSmxqcbELlCFK6UXEULJZ9GnmmXUm5HLKwiyxhSmqmk5eKVhGkcduNVrAJi9Cx54qOB1pw2Nco5fQmtV2qC1bc138PuGu2RvpWd26W9RNX9fzbE9F75JjZMh5mTgJGolprmjUZQcWfO3PmMd1zrd0tq2OpyjRIDZ3I22VdafAZiXqYtHLEJZpDqzzm7p/W6fLnA/Myzntja1Xz6tvRvZ3H5mns2aQqh8wDOiXtRWyVIhibJU8aiHzVZZS7dY0bulgR98+58Fb98s/4r+O7Tcf2+dH5nCowzUddXlnSXtLrC9EHfxrgWsXPZol1lM9GOrzHfNsleMj58nrldd/5v59Yf23bn4/sE/P9eRCzze1tqj2MtVBVMF3yyW7X2EvYnNa91b4ZZ8fzrk+to8ven9/rZ+7XDb124F5+gmfvdDJsYb3zOgR22fRFmlmI6OkSBqwnOr9aeuywbhH48C/vPD/GfFTieO+bh9y74IPTnV2wvp9Mz5h99PoGSHlkMqcZvL0Ym7ndSvHfJ5Gw1xumx9jvqjycIWjRzwZc7hhTk/08IThmIVRtEesfI1eh3aRtMBSSDNLLcPcNF+taLvCeo7lhMWxOepz0GZtqNFjc/oerdWog6ckpNxQN6KRV9tlyqVQ1IcFvqmzUNda3dwp0W9p2JiYSiGsqNNm0IhSLEpGXpFajjlDAFaG6pROs9wImCqoVaQbWTOhZrJq+6YBOXcSUKNcSrGtMKtyQXWHuiEBJ6tmaDoBtSxxrPmsEl+RJd/jhqu2oZ5VU4S5sEQQxBlyIXVbiaWycCYdVFG4kptRMUPBuXJkkTcKLIIMrRvzt/bXBhhjX22AY8iKjCYddiFnFEo5S75N1iO0CME3Rlnfg+k3L399++r7/wFovGy8Yps9JwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Asteriods screenshot&quot; title=&quot;Asteriods screenshot&quot; src=&quot;/jt-must-code/static/60e55cc1399c1fa0c36a6644f4a603d1/f058b/asteriods.png&quot; srcset=&quot;/jt-must-code/static/60e55cc1399c1fa0c36a6644f4a603d1/c26ae/asteriods.png 158w,
+/jt-must-code/static/60e55cc1399c1fa0c36a6644f4a603d1/6bdcf/asteriods.png 315w,
+/jt-must-code/static/60e55cc1399c1fa0c36a6644f4a603d1/f058b/asteriods.png 630w,
+/jt-must-code/static/60e55cc1399c1fa0c36a6644f4a603d1/41be6/asteriods.png 638w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.codeskulptor.org/#user40_uxUdEXOYYl_102.py&quot;&gt;&lt;strong&gt;Play the game!&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The last project in my &lt;a href=&quot;https://www.coursera.org/learn/interactive-python-2?specialization=computer-fundamentals&quot;&gt;Coursera Python class&lt;/a&gt; is the game Asteroids. If you are unfamiliar with Asteroids, the goal is to shoot and dodge asteroids from your spaceship. It is a 2-D game where the screen shows the same area of space, but the objects on the screen can fly into one edge of the screen and come out the opposite edge.&lt;/p&gt;
+&lt;p&gt;This is my first attempt at a physics based game. I had a lot of fun with this one. The game gets progressively harder. The number and speed of asteroids increases over time.&lt;/p&gt;
+&lt;h2&gt;Likes&lt;/h2&gt;
+&lt;h3&gt;Random asteroid shapes&lt;/h3&gt;
+&lt;p&gt;The Python class suggested using an animated sprite for asteroids, but I wanted to be more true to the original and use randomly generated polygons. The polygons are generated by choosing a random number of vertices and random distances from each vertex to the polygon’s center.&lt;/p&gt;
+&lt;h3&gt;Asteroid fragmentation&lt;/h3&gt;
+&lt;p&gt;Asteroids that are large enough will fragment upon collision.
+The velocity vector of the fragmented asteroids is based on the the velocity vector of the original asteroid.&lt;/p&gt;
+&lt;h3&gt;Boss asteroid&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;There is a two percent change that any new asteroid will be a boss asteroid. Boss asteroids are very large, hard to destroy, and do not take damage when hitting regular asteroids.&lt;/li&gt;
+&lt;li&gt;Boss asteroids show multiple explosion animations on random parts of the asteroid.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Power ups&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Power ups increase your weapon capabilities or shield HP.&lt;/li&gt;
+&lt;li&gt;Power ups can only be obtained by flying the ship into them.&lt;/li&gt;
+&lt;li&gt;If a power up is not obtained within 7 seconds, it disappears. A power up will start flashing before it disappears.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Explosion animations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The explosion animations are a few different pre-rendered image files provided through the Coursera class. &lt;a href=&quot;http://commondatastorage.googleapis.com/codeskulptor-assets/lathrop/explosion_alpha.png&quot;&gt;Here is an example&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Explosion animations keep the velocity of the asteroid.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item></channel></rss>
