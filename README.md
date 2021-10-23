@@ -12,4 +12,10 @@
 
 ## 💫 Deploy
 
-Deploy using Github Pages.
+From the `main` branch, run
+
+```shell
+npm run deploy
+```
+
+to deploy using Github Pages.
