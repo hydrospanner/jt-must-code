@@ -8,7 +8,7 @@
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import DarkThemeToggler from "../components/dark_mode"
 
 const Bio = () => {
@@ -47,15 +47,12 @@ const Bio = () => {
       />
       <div>
         <p>
-          Written by
-          &nbsp;
+          Written by &nbsp;
           <a href={`/about`}>
             <strong>{author.name}</strong>
           </a>
         </p>
-        <div className="authorSummary">
-          {author?.summary || null}
-        </div>
+        <div className="authorSummary">{author?.summary || null}</div>
         <div className="social">
           <ul>
             <li>
@@ -65,7 +62,7 @@ const Bio = () => {
             </li>
             <li>
               <a href={`https://linkedin.com/in/${social?.linkedin || ``}`}>
-                <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x"  />
+                <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x" />
               </a>
             </li>
           </ul>

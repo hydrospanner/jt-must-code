@@ -1,5 +1,5 @@
-import React from 'react'
-import { ThemeToggler } from 'gatsby-plugin-dark-mode'
+import React from "react"
+import { ThemeToggler } from "gatsby-plugin-dark-mode"
 
 class DarkThemeToggler extends React.Component {
   render() {
@@ -11,11 +11,10 @@ class DarkThemeToggler extends React.Component {
               id="dark_mode_toggle"
               type="checkbox"
               className="checkbox"
-              onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
-              checked={theme === 'dark'}
-            />{' '}
-            <label htmlFor="dark_mode_toggle" className="switch">
-            </label>
+              onChange={e => toggleTheme(e.target.checked ? "dark" : "light")}
+              checked={theme === "dark"}
+            />{" "}
+            <label htmlFor="dark_mode_toggle" className="switch"></label>
           </div>
         )}
       </ThemeToggler>

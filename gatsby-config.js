@@ -9,12 +9,12 @@ module.exports = {
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
       linkedin: `hirejohntucker`,
-      github: 'hydrospanner',
+      github: "hydrospanner",
     },
   },
   plugins: [
     `gatsby-plugin-image`,
-    'gatsby-plugin-dark-mode',
+    "gatsby-plugin-dark-mode",
     {
       resolve: `gatsby-source-filesystem`,
       options: {

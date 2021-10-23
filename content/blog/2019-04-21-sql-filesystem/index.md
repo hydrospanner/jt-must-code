@@ -9,11 +9,10 @@ I made a python package, [`directory_to_sql`](https://github.com/hydrospanner/di
 
 The data retrieved includes:
 
-- File sizes and modification date.
-- Folder sizes and file counts.
-- Recursive (including sub-folders) folder sizes and file counts.
+-   File sizes and modification date.
+-   Folder sizes and file counts.
+-   Recursive (including sub-folders) folder sizes and file counts.
 
-
-The package contains several queries to find top 10 largest files and folders. This was all I really needed to solve my space problem. 
+The package contains several queries to find top 10 largest files and folders. This was all I really needed to solve my space problem.
 
 The package returns a database connection to the SQL database, so it's very extendable for further analysis. The package is published on [PiPy](https://pypi.org/project/directory-to-sql/) and uses Travis CI.

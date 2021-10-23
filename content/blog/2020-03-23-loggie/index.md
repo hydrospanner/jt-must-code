@@ -17,6 +17,7 @@ At the moment the visualizations are based on a mapping I created of common logg
 All the code I've written for Loggie is closed source at the moment, but I'm thinking I'll open source the Permission system app at least.
 
 Here's a screenshot from an array induction log:
+
 <div className="Image__Medium">
   <img src="./images/loggie_log.png" alt="Array induction log" />
 </div>

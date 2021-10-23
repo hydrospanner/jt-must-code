@@ -14,9 +14,9 @@ const AboutPage = ({ data, location }) => {
       <h1>{author}</h1>
       <p>Hello and welcome to my programming blog!</p>
       <p>
-        My name is John Tucker.
-        I have a BS in Petroleum Engineering from the University of Oklahoma.
-        I'm currently working as a Software Engineer in the DFW area.
+        My name is John Tucker. I have a BS in Petroleum Engineering from the
+        University of Oklahoma. I'm currently working as a Software Engineer in
+        the DFW area.
       </p>
 
       <span>My software interests include</span>

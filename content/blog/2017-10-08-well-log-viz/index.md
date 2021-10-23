@@ -12,14 +12,12 @@ Reading and interpreting well logs has been a common task for me both in college
 
 My goals with the project were to
 
-- Test if lasio works consistently with hundreds of well log files.
-- Analyze the usage frequency of well logging tools and how standardized the syntax is between well logging tools in terms of how the tools are named and described.
-- Plot some of the gamma ray, resistivity logs.
+-   Test if lasio works consistently with hundreds of well log files.
+-   Analyze the usage frequency of well logging tools and how standardized the syntax is between well logging tools in terms of how the tools are named and described.
+-   Plot some of the gamma ray, resistivity logs.
 
-
-No test of a LAS parser would be complete without plotting the log data. Images of plotted well logs are quite large. It's common to have more than one data point per foot depth for each tool and a well can be many thousands of feet deep. Below is a cropped example of a plotted well log. Full logs can be found in this [project's source](https://github.com/hydrospanner/lasio-test/tree/master/image%20out). 
+No test of a LAS parser would be complete without plotting the log data. Images of plotted well logs are quite large. It's common to have more than one data point per foot depth for each tool and a well can be many thousands of feet deep. Below is a cropped example of a plotted well log. Full logs can be found in this [project's source](https://github.com/hydrospanner/lasio-test/tree/master/image%20out).
 
 <div className="Image__Medium">
   <img src="./images/log_example.png" alt="Cropped resistivity and gamma ray logs" />
 </div>
-
