@@ -12,6 +12,7 @@ module.exports = {
       github: "hydrospanner",
     },
   },
+  pathPrefix: "/jt-must-code",
   plugins: [
     `gatsby-plugin-image`,
     "gatsby-plugin-dark-mode",
