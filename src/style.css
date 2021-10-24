@@ -75,33 +75,42 @@ body.dark {
   --color-text-secondary: lightgray;
 }
 
-body.dark :not(pre) > code[class*="language-"], body.dark
-pre[class*="language-"] {
+body.dark :not(pre) > code[class*="language-"],
+body.dark pre[class*="language-"] {
   background: #1e1d1d;
 }
 
-body.dark code[class*="language-"], body.dark pre[class*="language-"] {
+body.dark code[class*="language-"],
+body.dark pre[class*="language-"] {
   color: #f0f0f0;
   text-shadow: none !important;
 }
 
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  background: inherit !important;
+}
+
 /* theme switch */
 .switch {
-  position : relative ;
-  display : inline-block;
-  width : 60px;
-  height : 34px;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
   background-color: #2196f3;
   border-radius: 34px;
 }
 
 .switch::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  background: #bbdbee url('images/sunny.png');
+  background: #bbdbee url("images/sunny.png");
   background-repeat: no-repeat;
   background-position: center;
   top: 3px;
@@ -109,10 +118,9 @@ body.dark code[class*="language-"], body.dark pre[class*="language-"] {
   transition: all 0.3s;
 }
 
-
 .checkbox:checked + .switch::after {
   left: 26px;
-  background: black url('images/night.png');
+  background: black url("images/night.png");
   background-repeat: no-repeat;
   background-position: center;
 }
