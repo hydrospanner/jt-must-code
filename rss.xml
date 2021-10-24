@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[John Tucker Must Code]]></title><description><![CDATA[John Tucker's blog.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 24 Oct 2021 15:23:12 GMT</lastBuildDate><item><title><![CDATA[Well Log Django App]]></title><description><![CDATA[I’ve been working on a website for managing well logs on and off for a while now. Meet Loggie, a well log website! With Loggie, you can join…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/2020-03-23-loggie/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/2020-03-23-loggie/</guid><pubDate>Mon, 23 Mar 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;I’ve been working on a website for managing well logs on and off for a while now.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[John Tucker Must Code]]></title><description><![CDATA[John Tucker's blog.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 24 Oct 2021 20:49:49 GMT</lastBuildDate><item><title><![CDATA[Version Control your Vim Settings]]></title><description><![CDATA[I’ve used Vim as my main text editor for about the last two years.
+I love having my entire workflow in the terminal.
+Vim is highly…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/2021-10-24-vim-config/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/2021-10-24-vim-config/</guid><pubDate>Sun, 24 Oct 2021 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;I’ve used Vim as my main text editor for about the last two years.
+I love having my entire workflow in the terminal.
+Vim is highly configurable, I feel like I have full control of its UI, and behavior.&lt;/p&gt;
+&lt;p&gt;Here’s a screenshot from my Vim setup showing a React component from this blog:&lt;/p&gt;
+&lt;div classname=&quot;Image__Medium&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/jt-must-code/static/9dd11220f7b4e7f6bdf205e02faab718/1e088/vim-screenshot-dark-mode.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 67.72151898734178%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB+klEQVQ4y4WTy47UMBRE+0+Quv24vrYTO895ACMGjQaxR2LFAv7/Gw5K0ulhGsQsSvG1kqNKuXwYc888jty1E/1YaNsWFSW1SsqBlIWYlznhncdZhz9rXTuP+G1fjo6DyxVXR6Sfce1ADZWaOlw/4GuP7SckZ4IK1jmstVh3lrU47/Her7M/Wg7TzVdCmTimlpNExAniAievGB8wErHOY80Z4DZn7gz310DVlmb+SJ4/EHNDkzMxRqIosv6iwe2gK/0TeLKGJMJD6WhqQx4acklrbvtH/5N37jVw+chYy91YeX8/Mj2MlI8DobaYJXCRi1Y34i+ulvVfGe4ubsfCw+1E182kOiPzPX6cSSmTcyY3DVEjIQeCBiQFYkk4Ca+Bq23ruOk75qGSUkSDoOrRFPC6uHNoWNx6RDen0QnObNm+BnpPypUxVYIqOSohKdpG4i4N1CaRUyQ0SghCCXHr3zVQNGLaiWMZMZqxxmyBmz9kLcZsusz7oVxnuCyMOW6gFWZe+vaGLkDxa+n9clOyyxSppJjWa1fasnbxrbrsru1p0+lksO8Mh6V7URMhbKenS4bLKQbZKiIvOe3zUqH9/dznValL5Bw5fPr+yDCPlFrINVOmQju0lHF7Nl2DqpKatO4tc9d3jMPIdDvx/POZL7+eefrxxOdvj/wGAvSg3eG4aGYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;vim screenshot&quot; title=&quot;vim screenshot&quot; src=&quot;/jt-must-code/static/9dd11220f7b4e7f6bdf205e02faab718/f058b/vim-screenshot-dark-mode.png&quot; srcset=&quot;/jt-must-code/static/9dd11220f7b4e7f6bdf205e02faab718/c26ae/vim-screenshot-dark-mode.png 158w,
+/jt-must-code/static/9dd11220f7b4e7f6bdf205e02faab718/6bdcf/vim-screenshot-dark-mode.png 315w,
+/jt-must-code/static/9dd11220f7b4e7f6bdf205e02faab718/f058b/vim-screenshot-dark-mode.png 630w,
+/jt-must-code/static/9dd11220f7b4e7f6bdf205e02faab718/1e088/vim-screenshot-dark-mode.png 840w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;/div&gt;
+&lt;h2&gt;Version controlling my Vim Config&lt;/h2&gt;
+&lt;p&gt;A few months ago, I started version controlling &lt;a href=&quot;https://github.com/hydrospanner/dotvim&quot;&gt;my Vim settings&lt;/a&gt; and plugins.
+Adding version control allows me to experiment without worrying I’ll break anything.
+I became more comfortable tinkering with it and saw an improvement in my productivity.&lt;/p&gt;
+&lt;p&gt;If I’m having a problem with my settings, I can ask the Vim community and link to my Vim settings on GitHub.&lt;/p&gt;
+&lt;h2&gt;Easy syncing between machines&lt;/h2&gt;
+&lt;p&gt;I have a couple machines and virtual machines where I use Vim.
+So I have the need to sync Vim plugins and settings between machines.&lt;/p&gt;
+&lt;p&gt;By version controlling everything, I can setup a new machine with&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://github.com/hydrospanner/dotvim.git .vim
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;runtime vimrc&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; .vimrc
+&lt;span class=&quot;token comment&quot;&gt;# get the submodules (plugins)&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; .vim
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; submodule init
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; submodule update&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;or sync an existing &lt;code class=&quot;language-text&quot;&gt;.vim/&lt;/code&gt; directory with&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; pull
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; submodule init
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; submodule update&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Well Log Django App]]></title><description><![CDATA[I’ve been working on a website for managing well logs on and off for a while now. Meet Loggie, a well log website! With Loggie, you can join…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/2020-03-23-loggie/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/2020-03-23-loggie/</guid><pubDate>Mon, 23 Mar 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;I’ve been working on a website for managing well logs on and off for a while now.&lt;/p&gt;
 &lt;p&gt;Meet &lt;a href=&quot;https://well-loggie.herokuapp.com/&quot;&gt;Loggie&lt;/a&gt;, a well log website!&lt;/p&gt;
 &lt;p&gt;With Loggie, you can join and create groups to share your logs, and customize how public or private each group is. It’s similar to Reddit’s permission system with well logs instead of posts.&lt;/p&gt;
 &lt;p&gt;Well logs are a collection of sensors lowered into a well bore. The variety of sensors, scale of the data, and visualization options create an interesting challenge for displaying the data.&lt;/p&gt;
