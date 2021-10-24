@@ -32,6 +32,7 @@ const Bio = () => {
   // Set these values by editing "siteMetadata" in gatsby-config.js
   const author = data.site.siteMetadata?.author
   const social = data.site.siteMetadata?.social
+  const rootPath = `${__PATH_PREFIX__}/`
 
   return (
     <div className="bio">
@@ -48,7 +49,7 @@ const Bio = () => {
       <div>
         <p>
           Written by &nbsp;
-          <a href={`/about`}>
+          <a href={rootPath + `about`}>
             <strong>{author.name}</strong>
           </a>
         </p>
