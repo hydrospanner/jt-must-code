@@ -11,8 +11,9 @@ class DarkThemeToggler extends React.Component {
               id="dark_mode_toggle"
               type="checkbox"
               className="checkbox"
-              onChange={e => toggleTheme(e.target.checked ? "dark" : "light")}
+              onClick={e => toggleTheme(e.target.checked ? "dark" : "light")}
               checked={theme === "dark"}
+              readOnly
             />{" "}
             <label htmlFor="dark_mode_toggle" className="switch"></label>
           </div>
