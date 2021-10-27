@@ -8,7 +8,7 @@ description: "Let's game!"
   <img src="./images/asteriods.png" alt="Asteriods screenshot" />
 </div>
 
-[**Play the game!**](http://www.codeskulptor.org/#user40_uxUdEXOYYl_102.py)
+[**Play the game!**](https://py2.codeskulptor.org/#user48_uxUdEXOYYl_104.py)
 
 The last project in my [Coursera Python class](https://www.coursera.org/learn/interactive-python-2?specialization=computer-fundamentals) is the game Asteroids. If you are unfamiliar with Asteroids, the goal is to shoot and dodge asteroids from your spaceship. It is a 2-D game where the screen shows the same area of space, but the objects on the screen can fly into one edge of the screen and come out the opposite edge.
 
