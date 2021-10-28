@@ -108,6 +108,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
+            title: "John Tucker Must Code",
           },
         ],
       },
