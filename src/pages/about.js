@@ -15,17 +15,29 @@ const AboutPage = ({ data, location }) => {
       <p>Hello and welcome to my programming blog!</p>
       <p>
         My name is John Tucker. I have a BS in Petroleum Engineering from the
-        University of Oklahoma. I'm currently working as a Software Engineer in
-        the DFW area.
+        University of Oklahoma.
+      </p>
+      <p>
+        I worked at the{" "}
+        <a href="https://rrc.texas.gov/">Railroad Commission of Texas</a> for
+        seven years doing engineering work, which increasingly took on a
+        software development and data analysis component. That became my
+        facorite part of the job, and it because clear that was the direction I
+        wanted my career to take. In 2018, I made the carreer-switch to a
+        Software Engineer role focusing on web development and data engineering.
       </p>
 
       <span>My software interests include</span>
       <ul>
         <li>full stack web development</li>
-        <li>data transformation & warehousing</li>
-        <li>CI/CD</li>
+        <li>data transformation, databases, and analysis</li>
         <li>cloud services (AWS)</li>
       </ul>
+      <p>
+        In my free time, I enjoy spending time with my wife, Ashley and Son,
+        Archie. I also like games (board and video) and the occasional home
+        improvement project.
+      </p>
     </Layout>
   )
 }
