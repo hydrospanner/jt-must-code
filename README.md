@@ -10,6 +10,13 @@
 
 -   **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
+## Installation
+
+Install the [Gatsby CLI](https://www.gatsbyjs.com/docs/reference/gatsby-cli/) then
+```shell
+npm ci
+```
+
 ## 💫 Deploy
 
 From the `main` branch, run

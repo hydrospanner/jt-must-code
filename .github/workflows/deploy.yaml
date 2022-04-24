@@ -12,7 +12,7 @@ jobs:
       - name: Install and Build 🔧
         run: |
           npm ci
-          npm run gatsby build --prefix-paths
+          npm run build --prefix-paths
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.3.0
