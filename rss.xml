@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[John Tucker Must Code]]></title><description><![CDATA[John Tucker's blog.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 25 Apr 2022 12:53:32 GMT</lastBuildDate><item><title><![CDATA[Pill Organizer Therapy Tool]]></title><description><![CDATA[The idea for this project came from my wife, who explained an idea for a cognative therapy
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[John Tucker Must Code]]></title><description><![CDATA[John Tucker's blog.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 28 May 2022 21:02:13 GMT</lastBuildDate><item><title><![CDATA[Pill Organizer Therapy Tool]]></title><description><![CDATA[The idea for this project came from my wife, who explained an idea for a cognative therapy
 exercise with a patient on an iPad. This app is a…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/2022-04-24-pill-organizer/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/2022-04-24-pill-organizer/</guid><pubDate>Sun, 24 Apr 2022 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;The idea for this project came from my wife, who explained an idea for a cognative therapy
 exercise with a patient on an iPad.&lt;/p&gt;
 &lt;p&gt;This app is a tool for a therapist and patient to practice organizing medications using a pill organizer.&lt;/p&gt;
@@ -28,9 +28,9 @@ exercise with a patient on an iPad.&lt;/p&gt;
     &lt;/span&gt;
 &lt;/div&gt;
 &lt;p&gt;See the project &lt;a href=&quot;https://hydrospanner.github.io/pill-organizer/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The project is Open Source and available &lt;a href=&quot;https://github.com/hydrospanner/pill-organizer&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Version Control your Vim Settings]]></title><description><![CDATA[I’ve used Vim as my main text editor for about the last two years.
+&lt;p&gt;The project is Open Source and available &lt;a href=&quot;https://github.com/hydrospanner/pill-organizer&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Version Control your Vim Settings]]></title><description><![CDATA[I’ve used Vim as my main text editor since 2019.
 I love having my entire workflow in the terminal.
-Vim is highly…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/2021-10-24-vim-config/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/2021-10-24-vim-config/</guid><pubDate>Sun, 24 Oct 2021 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;I’ve used Vim as my main text editor for about the last two years.
+Vim is highly configurable, I feel like I…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/2021-10-24-vim-config/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/2021-10-24-vim-config/</guid><pubDate>Sun, 24 Oct 2021 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;I’ve used Vim as my main text editor since 2019.
 I love having my entire workflow in the terminal.
 Vim is highly configurable, I feel like I have full control of its UI, and behavior.&lt;/p&gt;
 &lt;p&gt;Here’s a screenshot from my Vim setup showing a React component from this blog:&lt;/p&gt;
@@ -56,15 +56,38 @@ So I have the need to sync Vim plugins and settings between machines.&lt;/p&gt;
 &lt;p&gt;By version controlling everything, I can setup a new machine with&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt;
 &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://github.com/hydrospanner/dotvim.git .vim
-&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;runtime vimrc&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; .vimrc
-&lt;span class=&quot;token comment&quot;&gt;# get the submodules (plugins)&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; .vim
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; submodule init
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; submodule update&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;or sync an existing &lt;code class=&quot;language-text&quot;&gt;.vim/&lt;/code&gt; directory with&lt;/p&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;runtime vimrc&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; .vimrc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;When Vim is opened, &lt;a href=&quot;https://github.com/junegunn/vim-plug&quot;&gt;Plug&lt;/a&gt;, a Plugin manager
+included in my dotvim repo,
+will automatically install any missing plugins.&lt;/p&gt;
+&lt;h2&gt;Pathogen vs Plug&lt;/h2&gt;
+&lt;p&gt;Initially, I used &lt;a href=&quot;https://github.com/tpope/vim-pathogen&quot;&gt;Pathogen&lt;/a&gt; for Plugin management.
+It works by picking up plugins from repos cloned to &lt;code class=&quot;language-text&quot;&gt;~/.vim/bundle/&lt;/code&gt;.
+It works great in a single machine, but syncing those plugins gets interesting.
+To track those Plugins in my dotvim repo, I could add those plugin repos as
+&lt;a href=&quot;https://git-scm.com/book/en/v2/Git-Tools-Submodules&quot;&gt;git submodules&lt;/a&gt;, and pull in changes with:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; pull
 &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; submodule init
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; submodule update&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Well Log Django App]]></title><description><![CDATA[I’ve been working on a website for managing well logs on and off for a while now. Meet Loggie, a well log website! With Loggie, you can join…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/2020-03-23-loggie/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/2020-03-23-loggie/</guid><pubDate>Mon, 23 Mar 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;I’ve been working on a website for managing well logs on and off for a while now.&lt;/p&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; submodule update&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;However, installing and updating vim packages in this way is really something Plug is designed for.
+Instead of tracking the plugins in a &lt;code class=&quot;language-text&quot;&gt;.gitmodules&lt;/code&gt; file, Plug allows me to list them in the &lt;code class=&quot;language-text&quot;&gt;vimrc&lt;/code&gt; config.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;vim&quot;&gt;&lt;pre class=&quot;language-vim&quot;&gt;&lt;code class=&quot;language-vim&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;call&lt;/span&gt; plug#&lt;span class=&quot;token function&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Plug &lt;span class=&quot;token string&quot;&gt;&apos;tpope/vim-sensible&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;call&lt;/span&gt; plug#&lt;span class=&quot;token function&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Neovim&lt;/h2&gt;
+&lt;p&gt;I’ve also been using &lt;a href=&quot;https://neovim.io/&quot;&gt;Neovim&lt;/a&gt; lately.
+There is a &lt;a href=&quot;https://github.com/github/copilot.vim&quot;&gt;GitHub CoPilot plugin&lt;/a&gt; available for Neovim that’s not (yet) compatible with Vim.&lt;/p&gt;
+&lt;p&gt;Neovim has &lt;a href=&quot;https://neovim.io/doc/user/nvim.html#nvim-from-vim&quot;&gt;documentation&lt;/a&gt;
+on extending Vim’s config for Neovim.
+Adding this to Neovim’s &lt;code class=&quot;language-text&quot;&gt;init.vim&lt;/code&gt; config file gives me all my Vim configurations in Neovim.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;vim&quot;&gt;&lt;pre class=&quot;language-vim&quot;&gt;&lt;code class=&quot;language-vim&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;runtimepath&lt;/span&gt;^&lt;span class=&quot;token operator&quot;&gt;=~&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;vim&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;runtimepath&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt;~&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;vim&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;after
+&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; &amp;amp;packpath &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &amp;amp;&lt;span class=&quot;token builtin&quot;&gt;runtimepath&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;source&lt;/span&gt; ~&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;vimrc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Then add Neovim specific configuration below that.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;vim&quot;&gt;&lt;pre class=&quot;language-vim&quot;&gt;&lt;code class=&quot;language-vim&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;call&lt;/span&gt; plug#&lt;span class=&quot;token function&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Plug &lt;span class=&quot;token string&quot;&gt;&apos;github/copilot.vim&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;call&lt;/span&gt; plug#&lt;span class=&quot;token function&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Note that the Plugs in the Vim config have to be installed from Vim, not Neovim.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Well Log Django App]]></title><description><![CDATA[I’ve been working on a website for managing well logs on and off for a while now. Meet Loggie, a well log website! With Loggie, you can join…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/2020-03-23-loggie/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/2020-03-23-loggie/</guid><pubDate>Mon, 23 Mar 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;I’ve been working on a website for managing well logs on and off for a while now.&lt;/p&gt;
 &lt;p&gt;Meet &lt;a href=&quot;https://well-loggie.herokuapp.com/&quot;&gt;Loggie&lt;/a&gt;, a well log website!&lt;/p&gt;
 &lt;p&gt;With Loggie, you can join and create groups to share your logs, and customize how public or private each group is. It’s similar to Reddit’s permission system with well logs instead of posts.&lt;/p&gt;
 &lt;p&gt;Well logs are a collection of sensors lowered into a well bore. The variety of sensors, scale of the data, and visualization options create an interesting challenge for displaying the data.&lt;/p&gt;
