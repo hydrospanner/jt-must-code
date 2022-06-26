@@ -14,7 +14,7 @@
 
 Install the [Gatsby CLI](https://www.gatsbyjs.com/docs/reference/gatsby-cli/) then
 ```shell
-npm ci
+npm ci --force
 ```
 
 ## 💫 Deploy

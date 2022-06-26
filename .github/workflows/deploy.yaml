@@ -11,7 +11,7 @@ jobs:
       - uses: actions/setup-node@v3
       - name: Install and Build 🔧
         run: |
-          npm ci
+          npm ci --force
           npm run build --prefix-paths
 
       - name: Deploy 🚀
