@@ -30,8 +30,8 @@ const AboutPage = ({ data, location }) => {
       <span>My software interests include</span>
       <ul>
         <li>full stack web development</li>
-        <li>data transformation, databases, and analysis</li>
-        <li>cloud services (AWS)</li>
+        <li>data pipelines, databases, and analysis</li>
+        <li>cloud computing services (e.g., AWS)</li>
       </ul>
       <p>
         In my free time, I enjoy spending time with my wife, Ashley and Son,
