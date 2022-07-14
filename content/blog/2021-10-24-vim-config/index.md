@@ -1,7 +1,7 @@
 ---
 title: Version Control your Vim Settings
 date: "2021-10-24T22:12:03.284Z"
-description: "you'll wonder why you wern't already doing it"
+description: "You'll wonder why you wern't already doing it"
 ---
 
 I've used Vim as my main text editor since 2019.

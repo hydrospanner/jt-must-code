@@ -14,7 +14,7 @@ The last project in my [Coursera Python class](https://www.coursera.org/learn/in
 
 This is my first attempt at a physics based game. I had a lot of fun with this one. The game gets progressively harder. The number and speed of asteroids increases over time.
 
-## Likes
+## Cool Features
 
 ### Random asteroid shapes
 
@@ -27,7 +27,7 @@ The velocity vector of the fragmented asteroids is based on the the velocity vec
 
 ### Boss asteroid
 
--   There is a two percent change that any new asteroid will be a boss asteroid. Boss asteroids are very large, hard to destroy, and do not take damage when hitting regular asteroids.
+-   There is a two percent chance that any new asteroid will be a boss asteroid. Boss asteroids are very large, hard to destroy, and do not take damage when hitting regular asteroids.
 -   Boss asteroids show multiple explosion animations on random parts of the asteroid.
 
 ### Power ups
