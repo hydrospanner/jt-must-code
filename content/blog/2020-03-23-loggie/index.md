@@ -22,4 +22,4 @@ Here's a screenshot from an array induction log:
   <img src="./images/loggie_log.png" alt="Array induction log" />
 </div>
 
-You can view this log on Loggie, [here](https://well-loggie.herokuapp.com/g/public/log/11).
+You can view this log on Loggie, [here](https://well-loggie.herokuapp.com/g/featured/plot_mpl/1).
