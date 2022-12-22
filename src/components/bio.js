@@ -57,12 +57,18 @@ const Bio = () => {
         <div className="social">
           <ul>
             <li>
-              <a href={`https://github.com/${social?.github || ``}`}>
+              <a
+                href={`https://github.com/${social?.github || ``}`}
+                aria-label="GitHub"
+              >
                 <FontAwesomeIcon icon={["fab", "github"]} size="2x" />
               </a>
             </li>
             <li>
-              <a href={`https://linkedin.com/in/${social?.linkedin || ``}`}>
+              <a
+                href={`https://linkedin.com/in/${social?.linkedin || ``}`}
+                aria-label="LinkedIn"
+              >
                 <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x" />
               </a>
             </li>

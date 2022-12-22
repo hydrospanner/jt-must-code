@@ -63,6 +63,10 @@
   --color-text-secondary: #595858;
 }
 
+body {
+  background: lightblue;
+}
+
 /* dark mode */
 body.dark {
   background: #0d1117;
