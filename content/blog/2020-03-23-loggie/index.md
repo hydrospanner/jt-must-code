@@ -23,3 +23,7 @@ Here's a screenshot from an array induction log:
 </div>
 
 You can view this log on Loggie, [here](https://well-loggie.herokuapp.com/g/featured/plot_mpl/3).
+
+The app is hosted with [Heroku](https://www.heroku.com/) on their lowest Dyno tier, so there's an initial wake delay on the initial app load.
+
+One performance bottleneck is the rendering and encoding of the well log plot image in the backend via Matplotlib. The plotting will need to be transfered to the front end.
