@@ -22,7 +22,7 @@ Here's a screenshot from an array induction log:
   <img src="./images/loggie_log.png" alt="Array induction log" />
 </div>
 
-You can view this log on Loggie, [here](https://well-loggie.herokuapp.com/g/featured/plot_mpl/3).
+You can view this log on Loggie, [here](https://well-loggie.herokuapp.com/g/featured/log_plot/3).
 
 The app is hosted with [Heroku](https://www.heroku.com/) on their lowest Dyno tier, so there's an initial wake delay on the initial app load.
 
